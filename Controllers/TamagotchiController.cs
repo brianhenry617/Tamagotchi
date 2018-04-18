@@ -6,8 +6,14 @@ namespace Tamagotchi.Controllers
 {
     public class TamaController : Controller
     {
-      [HttpGet("/Tama/new")]
+      [Route("/Tama/new")]
         public ActionResult CreateForm()
+        {
+            return View();
+        }
+
+      [Route("/index")]
+        public ActionResult Index()
         {
             return View();
         }

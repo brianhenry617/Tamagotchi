@@ -20,3 +20,5 @@ namespace Tamagotchi.Models
       _happiness = happiness;
       _sleep = sleep;
     }
+  }
+}
